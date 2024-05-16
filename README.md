@@ -4,7 +4,7 @@
 
 # Project Structure
 
-**analytics/
+```analytics/
     ├── main.py
     ├── supermarket_sales.csv
     ├── pages/
@@ -12,7 +12,8 @@
         ├── branchA.py
         ├── branchB.py
         ├── branchC.py
-        
+        ```
+
 . main.py: The main application file that sets up the Dash app and the navigation bar.
 . supermarket_sales.csv: The dataset containing supermarket sales data.
 . pages/: Contains separate scripts for each page of the dashboard:
